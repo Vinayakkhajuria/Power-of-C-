@@ -1,12 +1,17 @@
-#include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
 	vector<int>v;
-	v.push_back(120);
-	v.push_back(98);
-	v.push_back(40);
-	v.push_back(550);	
+	int x;
+	for(int i=0;i<5;i++)
+	{
+		cin>>x;
+		v.push_back(x);
+	}
+// 	v.push_back(120);
+// 	v.push_back(98);
+// 	v.push_back(40);
+// 	v.push_back(550);	
 	vector<int>::iterator itr;
 	itr=v.begin();
 	sort(v.begin(),v.end());
